@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,7 @@
                       <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Collapsible Group Item #1
+                            Item #1
                           </button>
                         </h5>
                       </div>
@@ -51,7 +51,7 @@
                       <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
                           <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Collapsible Group Item #2
+                            Item #2
                           </button>
                         </h5>
                       </div>
@@ -65,7 +65,7 @@
                       <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
                           <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
+                            Item #3
                           </button>
                         </h5>
                       </div>
@@ -81,9 +81,9 @@
             <div class="col-1"></div>
             <div class="col-5" style="margin-top: 25px;">
                 <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Mostrar o primeiro elemento</a>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Mostrar o segundo elemento</button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Mostrar ambos elementos</button>
                   </p>
                   <div class="row">
                     <div class="col">
@@ -94,7 +94,103 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="collapse multi-collapse" id="multiCollapseExample2">
+                      <<!DOCTYPE html>
+2
+<html lang="en">
+3
+    <head>
+4
+        <meta charset="utf-8">
+5
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+6
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+7
+        <title>Bootstrap Accordion</title>
+8
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+9
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+10
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+11
+        <link rel="stylesheet" href="style.css">
+12
+    </head>
+13
+    <body>
+14
+        <header class="text_aling">
+15
+            <h1>Bootstrap: Hide and Seek Collapse and Acordion</h1>
+16
+        </header>
+17
+        <div class="row">
+18
+            <div class="col-1"></div>
+19
+            <div class="col-5">      
+20
+                <h2>Exemplo de um uso de Collapse</h2>  
+21
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Aperte aqui!!</button>  
+22
+                <div id="demo" class="collapse">
+23
+                    <div class="background">
+24
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+25
+                        <p>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+26
+                    </div>
+27
+                </div>  
+28
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+29
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+30
+            </div>
+31
+            
+32
+​
+33
+            <div class="col-5">
+34
+                <h2>Exemplo de um uso de Acordion</h2>
+35
+                <div id="accordion">
+36
+                    <div class="card">
+37
+                      <div class="card-header" id="headingOne">
+38
+                        <h5 class="mb-0">
+39
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+40
+                            Collapsible Group Item #1
+41
+                          </button>
+42
+                        </h5>
+43
+                      </div>
+44
+                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+45
+                        <div class="card-body">
+46
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+47
+                        </div>
+48
+                      </div>
+49
+                    </div>div class="collapse multi-collapse" id="multiCollapseExample2">
                         <div class="card card-body">
                           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                         </div>
